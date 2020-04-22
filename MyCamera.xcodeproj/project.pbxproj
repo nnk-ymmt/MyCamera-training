@@ -13,6 +13,8 @@
 		5FFFDFE22444C02900A63632 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FFFDFE02444C02900A63632 /* Main.storyboard */; };
 		5FFFDFE42444C02E00A63632 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FFFDFE32444C02E00A63632 /* Assets.xcassets */; };
 		5FFFDFE72444C02E00A63632 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FFFDFE52444C02E00A63632 /* LaunchScreen.storyboard */; };
+		5FFFDFEF24454E7800A63632 /* EffectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFFDFEE24454E7800A63632 /* EffectViewController.swift */; };
+		5FFFDFF12445780C00A63632 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFFDFF02445780C00A63632 /* UIImageExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,10 @@
 		5FFFDFE32444C02E00A63632 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FFFDFE62444C02E00A63632 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5FFFDFE82444C02E00A63632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FFFDFEE24454E7800A63632 /* EffectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectViewController.swift; sourceTree = "<group>"; };
+		5FFFDFF02445780C00A63632 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		5FFFDFF224457CF800A63632 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		5FFFDFF324457CF800A63632 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,8 @@
 				5FFFDFDC2444C02900A63632 /* SceneDelegate.swift */,
 				5FFFDFDE2444C02900A63632 /* ViewController.swift */,
 				5FFFDFE02444C02900A63632 /* Main.storyboard */,
+				5FFFDFEE24454E7800A63632 /* EffectViewController.swift */,
+				5FFFDFF02445780C00A63632 /* UIImageExtension.swift */,
 				5FFFDFE32444C02E00A63632 /* Assets.xcassets */,
 				5FFFDFE52444C02E00A63632 /* LaunchScreen.storyboard */,
 				5FFFDFE82444C02E00A63632 /* Info.plist */,
@@ -109,6 +117,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = 5FFFDFCE2444C02900A63632;
 			productRefGroup = 5FFFDFD82444C02900A63632 /* Products */;
@@ -139,7 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FFFDFDF2444C02900A63632 /* ViewController.swift in Sources */,
+				5FFFDFEF24454E7800A63632 /* EffectViewController.swift in Sources */,
 				5FFFDFDB2444C02900A63632 /* AppDelegate.swift in Sources */,
+				5FFFDFF12445780C00A63632 /* UIImageExtension.swift in Sources */,
 				5FFFDFDD2444C02900A63632 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +162,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				5FFFDFE12444C02900A63632 /* Base */,
+				5FFFDFF224457CF800A63632 /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -159,6 +171,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				5FFFDFE62444C02E00A63632 /* Base */,
+				5FFFDFF324457CF800A63632 /* ja */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,6 +183,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -230,6 +244,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
